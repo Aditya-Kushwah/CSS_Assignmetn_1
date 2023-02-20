@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+   
+</head>
+<body>
+    <header>Gemini Solution Pvt. Ltd.</header><br><br><br><br>
+    <img src="C:\Users\adity\Downloads\form.gif" alt="registeration form" width="50px" height="50px">
+    <br>
+    <div class="abc">
+    <h2>Student Registration form</h2>
+    <form action="backend.php">
+        <div >
+            Name: <input type="text">
+        </div>
+        <br>
+        <div>
+            Phone No: <input type="text">
+        </div>
+        <br>
+        <div class="'abc">
+            Date of Birth: <input type="date">
+        </div>
+        <br>
+        <div >
+            Address: <textarea name="myText" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div >
+            Gender: <input type="radio" name="MyGender">Male <input type="radio" name="MyGender">Female
+        </div>
+        <br>
+        <div>
+            <label  for="city">City : </label>
+            <select id="city" , name="city">
+                <option value="selectcity">Select City</option>
+                <option value="Gurugram">Gurugram</option> 
+                <option value="Panchkula">Panchkula</option> 
+                <option value="Noida">Noida</option>
+                <option value="Bangalore">Bangalore</option>
+            </select>
+        </div>
+        <br>
+        <label class="hob" for="hobbies">Hobbies : </label>
+        <div class="ch">
+        <input type="checkbox" name="Music" value="Music">
+        <label for="Music">Music</label><br>
+
+        <input type="checkbox" name="song" value="Sports">
+        <label for="Sports">Sports</label><br>
+
+        <input type="checkbox" name="Reading" value="">
+        <label for="Reading">Reading</label><br>
+
+        <input type="checkbox" name="Travelling" value="Travelling">
+        <label for="Travelling">Travelling</label><br>
+
+        <input type="checkbox" name="Dancing" value="Dancing">
+        <label for="Dancing">Dancing</label><br>
+        </div>
+        <br>
+
+        <div>
+            <input class="btn" type="submit" value="Submit Now">
+            <input class="btn" type="reset" value="Reset Now">
+        </div>
+        <br>
+        <h2>Student Records</h2>
+        
+            <table>
+                <tr>
+                    <th>S.No.</th>
+                    <th>Name</th>
+                    <th>Phone No.</th>
+                    <th>Gender</th>
+                    <th>DOB</th>
+                    <th>Hobbies</th>
+                </tr>
+                <tr>
+                    <td rowspan="3">1</td>
+                    <td rowspan="3">Ashish</td>
+                    <td rowspan="3">123-4-567</td>
+                    <td rowspan="3">Male</td>
+                    <td rowspan="3">12/08/1996</td>
+                    <td>Music</td>
+                </tr>
+                <tr>
+                    <td>Dance</td>
+                </tr>
+               
+                <tr>
+                    <td>Badminton</td>
+                </tr>
+    
+                <tr>
+                    <td rowspan="3">1</td>
+                    <td rowspan="3">Aditya</td>
+                    <td rowspan="3">123-434-589</td>
+                    <td rowspan="3">Male</td>
+                    <td rowspan="3">05/02/2001</td>
+                    <td>Dance</td>
+                </tr>
+                <tr>
+                    <td>Video Games</td>
+                </tr>
+            </table>
+        
+        
+    </form>
+    </div>
+    <div class="footer">
+        <p>Gemini Solutions Pvt Ltd</p>
+      </div>
+</body>
+</html>
